@@ -91,7 +91,7 @@ header{
 
 .btn__consulta img{
    color: #fff;
-   margin: 0 8px;
+   margin: 0 12px;
    font-weight: bold;
 }
 
@@ -100,4 +100,52 @@ header{
     font-weight: bold;
 }
 
+.section__header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
+.section__header-info span{
+    font-size: var(--font14);
+    color: var(--brand-green);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section__header-info h2{
+    font-size: var(--font52);
+    color: #000000;
+    font-weight: bold;
+    margin-top:12px;
+}
+
+.section__header-info p{
+    font-size: var(--font18);
+    color: var(--gray-paragraph);
+}
+
+.btn__consulta-header{
+    max-width: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: var(--font14);
+    background-color: var(--brand-green);
+    color: #fff;
+    padding:8px;
+    margin-top:30px;
+}
+
+.btn__consulta-header img{
+   color: #fff;
+   margin: 0 8px;
+   font-weight: bold;
+}
+
+.btn__consulta-header p{
+    color: #fff;
+    margin: 0 8px;
+    font-weight: bold;
+ }
