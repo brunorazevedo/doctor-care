@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -34,9 +36,68 @@
      --fontmobile48: 4.8rem;
  
 }
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.content{
+    max-width: 1120px;
+    margin: 0 auto;
+}
 
 header{
     width: 1366px;
     height:678px;
     background-color: var(--brand-green-light);
 }
+
+.header__menu{
+    height:72px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav__menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav__menu ul li{
+    margin: 0 20px;
+    font-size: var(--font16);
+}
+
+.nav__menu ul li a{
+    text-decoration: none;
+    color: var(--brand-green);
+}
+
+.nav__menu ul li a:hover{
+    font-weight: bold;
+}
+
+.btn__consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: var(--font14);
+    background-color: var(--brand-green);
+    color: #fff;
+    padding: 12px;
+}
+
+.btn__consulta img{
+   color: #fff;
+   margin: 0 8px;
+   font-weight: bold;
+}
+
+.btn__consulta p{
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+
