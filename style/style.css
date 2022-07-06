@@ -84,9 +84,26 @@ header{
     color: #fff;
     padding: 12px;
 }
+<<<<<<< HEAD
 .btn__consulta p{
+=======
+
+.btn__consulta:hover{
+    background-color:var(--brand-green-hover);
+}
+
+.btn__consulta img{
+   color: #fff;
+   margin: 0 12px;
+   font-weight: bold;
+}
+
+.btn__consulta a{
+>>>>>>> main
     margin: 0 8px;
     font-weight: bold;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* EXIT STYLE CABECALHO IS SITE */
@@ -111,13 +128,22 @@ header{
     font-size: var(--font52);
     color: #000000;
     font-weight: bold;
+<<<<<<< HEAD
     line-height: 52px;
     margin-top: 24px;
+=======
+    margin-top:16px;
+    line-height: 50px;
+>>>>>>> main
 }
 .section__header-info p{
     font-size: var(--font18);
     color: var(--gray-paragraph);
+<<<<<<< HEAD
     margin-top: 24px;
+=======
+    margin-top: 16px;
+>>>>>>> main
 }
 .btn__consulta-header{
     width: 100%;
@@ -127,8 +153,13 @@ header{
     border-radius: 40px;
     background-color: var(--brand-green);
     color: #fff;
+<<<<<<< HEAD
     padding:8px;
     margin-top: 24px;
+=======
+    padding:12px;
+    margin-top:30px;
+>>>>>>> main
 }
 .btn__consulta-header img{
    color: #fff;
